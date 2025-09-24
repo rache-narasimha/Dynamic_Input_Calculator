@@ -47,7 +47,9 @@ else if (action<=5 && action >=0){
 		CoreLogic.simpleCalcApp(num1, num2, action);
 
 	}
-
+else {
+	System.out.println("error, please check your action value");
+}
 }
 	}
 	
