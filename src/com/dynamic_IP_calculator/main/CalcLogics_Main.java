@@ -22,7 +22,12 @@ public class CalcLogics_Main {
 		Scanner sc = new Scanner(System.in);
 
 		action = sc.nextInt();
-if (action>5) {
+		
+		/* for else if ladder,
+			String action;
+		action = sc.next();*/
+		
+if (action>5 && action<0) {
 	System.out.println("you have selected invalid option, please select with in the available options");
 }
 else if (action<=5 && action >=0){
