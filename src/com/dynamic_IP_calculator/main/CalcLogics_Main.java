@@ -8,7 +8,7 @@ public class CalcLogics_Main {
 
 	public static void main(String[] args) {
 
-		System.out.println("Welcome");
+		System.out.println("Welcome to our calculator services");
 		System.out.println("you can perform following actions-");
 		System.out.println("for addition, please type '1'");
 		System.out.println("for substraction, please type '2'");
@@ -27,10 +27,10 @@ public class CalcLogics_Main {
 			String action;
 		action = sc.next();*/
 		
-if (action>5 && action<0) {
+if (action>5 || action<=0) {
 	System.out.println("you have selected invalid option, please select with in the available options");
 }
-else if (action<=5 && action >=0){
+else if (action<=5 && action >0){
 	
 
 		double num1;
